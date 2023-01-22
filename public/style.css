@@ -1,0 +1,163 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+}
+.me-auto{
+    margin-left: 50%;
+}
+.nav-item{
+    margin-right: 50px;
+}
+.nav-link{
+    color: black;
+}
+.intro{
+    padding: 3% 10% 10%;
+}
+.intro img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.intro h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+.intro button{
+    background-color:#1B1AFF;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 5%;
+}
+.examples{
+    background-color: #F5F8FE;
+    padding: 3% 10% 10%;
+}
+.examples h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+.examples p{
+    text-align: center;
+    color: #9F9F9F;
+    padding: 1% 15%;
+}
+.examples img{
+    display: block;
+    margin: auto;
+    width: auto;
+}
+.first-row-ex{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.third{
+    padding-top: 10%;
+}
+.third h1{
+    padding-right: 30%;
+}
+.third p{
+    color: black;
+    font-size: small;
+    padding-right: 30%;
+    padding-top: 30px;
+}
+.third img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.third button{
+    background-color:#1B1AFF;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.courses{
+    margin: 10% 10%;
+}
+.courses img{
+    padding-top: 30px;
+    width: 32px;
+    margin-bottom: 30px;
+}
+.desc-txt{
+    font-size: xx-large;
+}
+.our-courses-txt{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+.course{
+    background-color:  #F5F8FE;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+.course-2{
+    margin-left: 30px;
+}
+.course-3{
+    margin-left: 50px;
+}
+.courses p{
+    font-size: 13px;
+}
+.courses button{
+    border: none;
+    background-color: #1C1C1C;
+    font-size: xx-small;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color:#1C1C1C;
+}
+.footer img{
+    margin: 10% 0% 10% 10%;
+}
+.footer p{
+    color: white;
+}
+.adres{
+    margin: 10% 0% 10% 10%;
+}
+@media only screen and (max-width:991px) {
+    .intro button{
+        margin-bottom: 40px;
+    }
+    *{
+        text-align: center;
+    }
+    .third h1, .third p{
+        padding: 0;
+    }
+    .me-auto{
+        margin-left: 0;
+        padding-left: 0px;
+    }
+    .course{
+        width: 100%;
+    }
+    .course-2{
+        margin: 0;
+    }
+    .course-3{
+        margin: 0;
+    }
+    .phone-2{
+        margin-bottom: 20px;
+    }
+}
